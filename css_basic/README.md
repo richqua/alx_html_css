@@ -1,0 +1,1 @@
+Practice project for learning and applying CSS fundamentals.
