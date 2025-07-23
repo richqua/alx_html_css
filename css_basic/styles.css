@@ -1,3 +1,6 @@
+.cover {
+    background-color:rgba(32, 13, 61, 0.5);
+}
 /*Body is a vertical flex container */
 body {
     display:flex;
