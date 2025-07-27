@@ -13,9 +13,9 @@ body{
 header{
     background: url('./images/Object.png') no-repeat center center/cover;
     height: 100vh;
-   color: aliceblue;
-   margin:0;
-   padding-top:10px;
+    color: aliceblue;
+    margin:0;
+    padding-top:10px;
 
 }
 .navbar{
@@ -32,7 +32,6 @@ header{
     list-style: none;
     margin-right:10px; /*used this to shift the nav-link to father from the image
     head*/
-
 }
 .nav-links a{
     margin-right: 20px;
@@ -73,8 +72,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
 .image img{
     width:  100px;
     border-radius: 80%;
@@ -119,15 +118,20 @@ color:aliceblue;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    font-size: 10px;
 }
 
+
 .card {
-  min-width: 0;
-  text-align: center;
-  position: relative;
+    min-width: 0;
+    text-align: center;
+    position: relative;
 }
  
 .card img {
@@ -180,16 +184,16 @@ color: rgb(150, 107, 137);
     padding: 30px; 
     margin-top:2px;
 
-} 
+}
+
 .free{ 
     display: flex; 
     justify-content: center; 
     align-items: center; 
-} 
+}
 
 .membership button{ 
-
-margin: 15px; 
+    margin: 15px; 
     padding: 5px 10px; 
     border-radius: 15px; 
     border: none; 
