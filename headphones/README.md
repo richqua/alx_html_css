@@ -1,0 +1,1 @@
+Welcome to Headphonia, a sleek and responsive headphone website built with passion and clean frontend code. This project was created to sharpen my HTML, CSS, and JavaScript skills as a beginner frontend software engineer.
