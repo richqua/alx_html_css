@@ -1,0 +1,251 @@
+/* GLOBAL RESET & VARIABLES */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: sans-serif;
+  background-color:white;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+:root {
+  --color1: #f0f8ff;
+  --color2: #000000;
+  --background-color1: #07182f;
+  --background-color2: #f06978;
+  --background-hover: #ff4f63;
+  --border-color: #272727;
+}
+
+/* GLOBAL IMAGE RESPONSIVENESS */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* WHAT WE DO SECTION */
+#What-we-do{
+    width: 80%;
+    padding: 10px 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .What-we-do-section{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   #icons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+#What-we-do{
+    width: 80%;
+    padding: 10px 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .What-we-do-section{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   #icons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+#What-we-do{
+    width: 80%;
+    padding: 10px 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .What-we-do-section{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   #icons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+#What-we-do{
+    width: 80%;
+    padding: 10px 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .What-we-do-section{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   #icons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+   #icons-container img {
+  display: inline-block;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 680px) {
+  .our {
+    width: 80%;
+  }
+   #What-we-do{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .What-we-do-section{
+    width: 80%;
+    margin: 0 auto;
+  }
+  #icons-container{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+ }
+  .foot-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .foot-container img {
+    margin: 0 auto;
+  }
+   .form-wrap {
+    width: 80%;
+  }
+    .menu {
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-color1);
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 100;
+    transition: all 0.25s ease-in-out;
+  }
+  .open-menu, .close-menu {
+    display: block;
+  }
+
+  #check:checked ~ .open-menu {
+    display: none;
+  }
+
+  #check:checked ~ .close-menu {
+    display: block;
+  }
+
+  #check:checked ~ .menu {
+    left: 0;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .menu li a {
+    padding: 20px;
+    margin: 0;
+  }
+
+
+  .hero-section {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .lorem {
+    margin-top: 40px;
+    line-height: 1.5;
+  }
+
+ 
+
+  .foot-container {
+    padding: 12px 20px;
+  }
+
+  .foot-container img {
+    width: 180px;
+    margin: 0 auto;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /*#What-we-do{
+    width: 80%;
+    padding: 10px 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .What-we-do-section{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   #icons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   }*/

@@ -1,0 +1,76 @@
+/* GLOBAL RESET & VARIABLES */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: sans-serif;
+  background-color: aliceblue;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+:root {
+  --color1: #f0f8ff;
+  --color2: #000000;
+  --background-color1: #07182f;
+  --background-color2: #f06978;
+  --background-hover: #ff4f63;
+  --border-color: #272727;
+}
+
+/* GLOBAL IMAGE RESPONSIVENESS */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* OUR RESULTS SECTION */
+#our-results {
+  background: url('./images/headphones_hero_2.jpg') no-repeat center center/cover;
+  padding: 30px;
+  text-align: center;
+  color: var(--color1);
+}
+
+.clip-path {
+  width: 150px;
+  height: 140px;
+  background-color: var(--background-hover);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  color: var(--color1);
+  text-align: center;
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.clip-path h3 {
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+}
+
+.our {
+  padding: 30px;
+  line-height: 1.5;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.clip-path p {
+  font-size: 14px;
+}
+
+#clip-path-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+  padding: 30px;
+}
